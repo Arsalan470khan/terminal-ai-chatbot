@@ -9,7 +9,8 @@ A simple chatbot that runs in the terminal, written in Python. It uses the Googl
 - Handles API errors without crashing
 
 ## Demo
-<img width="597" height="249" alt="Screenshot 2026-11-14 021613" src="https://github.com/user-attachments/assets/5c10727a-f238-4ac5-963a-f90100377391" />
+<img width="604" height="251" alt="Screenshot 2026-11-14 030846" src="https://github.com/user-attachments/assets/b1b8bda6-e603-4dcd-b7b7-ac793b72533f" />
+
 
 
 ## How to run
@@ -18,8 +19,11 @@ A simple chatbot that runs in the terminal, written in Python. It uses the Googl
    git clone https://github.com/Arsalan470khan/terminal-ai-chatbot.git
    cd terminal-ai-chatbot
    ```
-2. Install the requirements:
+2. Create and activate a virtual environment, then install the requirements:
    ```
+   python -m venv .venv
+   .venv\Scripts\activate        # Windows
+   source .venv/bin/activate     # Mac/Linux
    pip install -r requirements.txt
    ```
 3. Get a free API key from [Google AI Studio](https://aistudio.google.com/), then copy `.env.example` to `.env` and paste your key:
